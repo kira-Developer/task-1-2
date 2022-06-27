@@ -3,7 +3,8 @@
 
 ## Installation 
 
-Configure your Ubuntu repositories
+### Configure your Ubuntu repositories
+
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
@@ -14,7 +15,7 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 ```
 
 
-Installation
+### Installation
 
 ```
 sudo apt update
@@ -47,7 +48,7 @@ e.g.
 sudo apt install ros-noetic-slam-gmapping
 ```
 
-Environment setup
+### Environment setup
 ```
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 
@@ -60,14 +61,13 @@ echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
 source ~/.zshrc
 ```
 
-Dependencies for building packages
-
+### Dependencies for building packages
 
 ```
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 ```
 
-Initialize rosdep
+### Initialize rosdep
 
 ```
 sudo apt install python3-rosdep
