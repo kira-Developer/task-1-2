@@ -78,7 +78,6 @@ Desktop Install (Recommended): ROS, RViz, demos, tutorials.
 
 ```
 sudo apt install ros-foxy-desktop
-
 ```
 ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
 
